@@ -1,4 +1,11 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.navbar-nav {
+  .active a {
+    color: $success;
+  }
+  .nav-item a {
+    cursor: pointer;
+    &:hover {
+      background-color: $gray-400;
+    }
+  }
 }
